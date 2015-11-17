@@ -5,3 +5,9 @@ body {
 div {
 	border: 1px solid chocolate;
 }
+
+.ul-nav {
+	font-size: 1.2em;
+	color: #838994;
+	float: right;
+}
