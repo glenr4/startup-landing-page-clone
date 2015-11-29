@@ -13,6 +13,20 @@ div {
 	border: 1px solid Chocolate;
 }
 
+/*Headings*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
 /* Nav bar */
 .top-navigation{
 	background-color: #fff;
@@ -36,6 +50,7 @@ div {
     font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
+    letter-spacing: 0.03em;
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
@@ -55,4 +70,32 @@ div {
 .logo {
 	margin: 15px;
 	/*padding: 15px;*/
+}
+
+.jumbotron {
+	background-image: url("../images/first-background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 46rem;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15rem;
+}
+
+.buttons {
+    width: 10rem;
+    background-color: #f15a29;
+    border-radius: 4px;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    color: #FFFFFF;
+
+    margin: 0 auto;
+
+}
+
+button {
+    background-color: none;
+    border: none;
 }
