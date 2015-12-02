@@ -30,7 +30,8 @@ h2 {
 /* Nav bar */
 .top-navigation{
 	background-color: #fff;
-
+    position: fixed;    /*Allows jumbotron to start from top*/
+    width: 100%;
 }
 
 .top-navigation > .content {
@@ -90,12 +91,6 @@ h2 {
     border-style: none;
     padding: 1rem 1.5rem;
     color: #FFFFFF;
-
     margin: 0 auto;
-
 }
 
-/*button {
-    background-color: none;
-    border: none;
-}*/
