@@ -6,7 +6,8 @@ html {
 }
 
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
+    background-color: #FFFFFF;
 }
 
 div {
@@ -90,9 +91,9 @@ h2 {
 
     color: #FFFFFF;
     text-align: center;
-    padding: 15rem 0;
+    padding: 15rem 0;   /*Fixed text wrapping by removing side padding */
 
-    width: 46rem;
+    /*width: 46rem;*/
 }
 
 .buttons {
@@ -105,6 +106,19 @@ h2 {
     margin: 0 auto;
 }
 
-/*.introduction {
-    margin-top: 70px;
-}*/
+.icons {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.icons img {
+    width: 127px;
+}
+
+.icons li {
+    display: inline-block;
+    width: 33.3%;
+    float: left;
+}
