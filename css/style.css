@@ -29,6 +29,18 @@ h2 {
     font-weight: 300;
 }
 
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #9EA3AA;
+}
 
 /* Nav bar */
 .top-navigation{
@@ -51,11 +63,6 @@ h2 {
 	padding: 0px 15px;
 }
 
-/*.links {
-	float: right;
-	display: inline-block;
-}
-*/
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -80,7 +87,6 @@ h2 {
 
 .logo {
 	margin: 15px;
-	/*padding: 15px;*/
 }
 
 .jumbotron {
@@ -123,4 +129,39 @@ h2 {
     display: inline-block;
     width: 33.3%;
     float: left;
+}
+
+.social {
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+
+.footicons {
+    padding: 0;
+}
+
+.footicons li {
+    display: inline-block;
+    border-style: solid;
+    border-color: #838994;
+    border-width: 1px;
+    box-sizing: normal;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0.6rem 0;
+}
+
+.fa-twitter {
+    color: #7AC8F7;
+}
+
+.fa-facebook {
+    color: #405D9A;
+}
+
+.fa-instagram {
+    color: #3f729b;
 }
