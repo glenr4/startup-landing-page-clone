@@ -109,8 +109,10 @@ h2 {
 .icons {
     text-align: center;
     width: 60%;
+    min-width: 37rem;
     margin: 0 auto;
     padding-top: 80px;
+    overflow: hidden;
 }
 
 .icons img {
