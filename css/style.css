@@ -18,6 +18,8 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h2 {
@@ -88,7 +90,9 @@ h2 {
 
     color: #FFFFFF;
     text-align: center;
-    padding: 15rem;
+    padding: 15rem 0;
+
+    width: 46rem;
 }
 
 .buttons {
