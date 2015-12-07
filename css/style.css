@@ -114,7 +114,8 @@ h6 {
 
 .icons {
     text-align: center;
-    width: 60%;
+    /*width: 60%;*/
+    width: 46rem;
     min-width: 37rem;
     margin: 0 auto;
     padding-top: 80px;
